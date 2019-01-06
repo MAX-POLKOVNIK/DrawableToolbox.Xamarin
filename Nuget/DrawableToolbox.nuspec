@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DrawableToolbox</id>
+    <version>1.0.7</version>
+    <authors>MAX-POLKOVNIK</authors>
+    <owners>Hong Duan</owners>
+    <licenseUrl>https://github.com/MAX-POLKOVNIK/DrawableToolbox.Xamarin/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/MAX-POLKOVNIK/DrawableToolbox.Xamarin</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>The missing drawable toolbox for Android. Create drawables programmatically and get rid of the boring and always repeated drawable.xml files.</description>
+    <tags>Android Drawable Toolbox DrawableToolbox</tags>
+    <dependencies>
+      <dependency id="Xamarin.Kotlin.StdLib" version="1.1.4.3" include="All" />
+    </dependencies>
+  </metadata>
+  <files>
+        <file src="..\DrawableToolbox\bin\Release\DrawableToolbox.dll" target="lib\MonoAndroid10\DrawableToolbox.dll" />
+    </files>	
+</package>
